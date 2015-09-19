@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Akira Demo{% endblock %}</title>
+	{% block head %}
+
+	{% endblock %}
+</head>
+<body>
+	{% block content %}
+		<main>
+			{% block page_content %}{% endblock %}
+		</main>
+	{% endblock %}
+
+	{% block scripts %}{% endblock %}
+</body>
+</html>
